@@ -5,10 +5,13 @@ import java.util.Scanner;
  */
 public class App {
     public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
         System.out.println("====Program Kasir Rock n Roll Haircut====");
-        System.out.println("Customer Name :");
-        System.out.println("Customer Email :");
+        System.out.print("Customer Name :");
+        String name = sc.next();
+        System.out.print("Customer Email :");
+        String email = sc.next();
 
-
+        System.out.println(name+email);
     }
 }
