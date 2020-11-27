@@ -11,7 +11,11 @@ public class App {
         String name = sc.next();
         System.out.print("Customer Email :");
         String email = sc.next();
+        //System.out.println(name+email);
 
-        System.out.println(name+email);
+        ServicePrice sp = new ServicePrice();
+        sp.displayService();
+        int choose = sc.nextInt();
+        System.out.println(choose);
     }
 }
