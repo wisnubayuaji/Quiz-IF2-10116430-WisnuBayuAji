@@ -21,7 +21,7 @@ public class ServicePrice implements Serviceitem{
         System.out.println("2. Haircut + Hairwash: IDR 55K");
         System.out.println("3. Hairwash Only : IDR 15K");
         System.out.println("#*************************#");
-        System.out.print("Choose (1/2/3): ");
+        System.out.print("Choose (1/2/3) : ");
     }
 
     public float getPrice(int serviceitem) {
@@ -29,8 +29,8 @@ public class ServicePrice implements Serviceitem{
 
     }
 
-    public boolean checkMemberStatus(String statusMember) {
-       
+    public boolean checkMemberStatus(boolean member) {
+       System.out.print("Are you member (yes/no) : ");
         return false;
 
     }
@@ -57,5 +57,11 @@ public class ServicePrice implements Serviceitem{
         int haircutwash = 55000;
         int hairwash = 15000;
         return 0;
+    }
+
+    @Override
+    public boolean checkMemberStatus(String statusMember) {
+        // TODO Auto-generated method stub
+        return false;
     }
 }

@@ -1,3 +1,4 @@
+import java.lang.reflect.Member;
 import java.util.Scanner;
 
 /**
@@ -14,8 +15,22 @@ public class App {
         //System.out.println(name+email);
 
         ServicePrice sp = new ServicePrice();
+        
         sp.displayService();
         int choose = sc.nextInt();
-        System.out.println(choose);
+        //System.out.println(choose);
+
+        //sp.checkMemberStatus(null);
+        //System.out.println(member);
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println("#*************************#");
+        System.out.println("#*****CUSTOMER INVOICE****#");
+        System.out.println("Date Transaction : ");
+        System.out.println("Service Price : ");
+        System.out.println("Discount : ");
+        System.out.println("Total Pay : ");
+
     }
 }
