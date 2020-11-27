@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * @author Nim : 10116430 Nama : Wisnu Bayu Aji Kelas: IF-2
  */
@@ -6,6 +8,7 @@ public class App {
         System.out.println("====Program Kasir Rock n Roll Haircut====");
         System.out.println("Customer Name :");
         System.out.println("Customer Email :");
+
 
     }
 }
